@@ -57,3 +57,6 @@ body{
 :focus {
     outline: 1;
 }
+input, select {
+    vertical-align:middle;
+}
