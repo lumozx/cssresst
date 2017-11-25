@@ -72,3 +72,7 @@ article,aside,canvas,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section,summary { 
     display:block;
 }
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
