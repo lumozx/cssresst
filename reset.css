@@ -1,78 +1,67 @@
-html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, h1, h2, h3, h4, h5, h6, a{
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, h1, h2, h3, h4, h5, h6, a {
     margin: 0;
     padding: 0
 }
-
 h1, h2, h3, h4, h5, h6 {
     text-align: left;
     font-size: 100%;
     font-weight: normal
 }
-
-ol,ul {
+ol, ul, nav {
     list-style: none
 }
-
 button, input, select, textarea {
     margin: 0
 }
-
 html {
     box-sizing: border-box
 }
-
 *, *:before, *:after {
     box-sizing: inherit
 }
-
 img, embed, iframe, object, audio, video {
     height: auto;
     max-width: 100%
 }
-
 iframe {
     border: 0
 }
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
 td, th {
     padding: 0;
     text-align: left
 }
-
 a {
     text-decoration: none;
-    border:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
-body{
+body {
     line-height: 1;
 }
 :focus {
     outline: 1;
 }
 input, select {
-    vertical-align:middle;
+    vertical-align: middle;
 }
 hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
     padding: 0;
 }
-article,aside,canvas,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section,summary { 
-    display:block;
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
 }
 abbr[title], dfn[title] {
-    border-bottom:1px dotted #000;
-    cursor:help;
+    border-bottom: 1px dotted #000;
+    cursor: help;
 }
