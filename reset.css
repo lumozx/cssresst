@@ -3,7 +3,6 @@ html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, tex
     padding: 0
 }
 h1, h2, h3, h4, h5, h6 {
-    text-align: left;
     font-size: 100%;
     font-weight: normal
 }
@@ -55,7 +54,8 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #cccccc;
-    margin: 1em 0;
+    background-color: #000;
+    margin: 0;
     padding: 0;
 }
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
