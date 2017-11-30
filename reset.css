@@ -13,7 +13,8 @@ button, input, select, textarea {
     margin: 0
 }
 html {
-    box-sizing: border-box
+    box-sizing: border-box;
+    overflow-y: scroll;
 }
 *, *:before, *:after {
     box-sizing: inherit
