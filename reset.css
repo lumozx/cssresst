@@ -22,7 +22,9 @@ html {
 }
 img, embed, iframe, object, audio, video {
     height: auto;
-    max-width: 100%
+    max-width: 100%;
+    padding: 0;
+    border: 0;
 }
 iframe {
     border: 0
