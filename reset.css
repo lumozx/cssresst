@@ -2,6 +2,7 @@ html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, tex
     margin: 0;
     padding: 0;
     background-color: transparent;
+    vertical-align: baseline;
 }
 h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
