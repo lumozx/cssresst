@@ -79,3 +79,6 @@ mark {
 input[type="search"] {
   box-sizing: content-box;
 }
+fieldset{
+    border: 0;
+}
