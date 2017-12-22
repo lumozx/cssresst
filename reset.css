@@ -89,3 +89,6 @@ sup{
 sub{
     vertical-align:text-bottom;
 }
+p{
+    margin:0 0 1em 0;
+}
