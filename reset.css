@@ -1,7 +1,7 @@
 *, *:before, *:after {
     box-sizing: inherit
 }
-html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, h1, h2, h3, h4, h5, h6, a {
+html,b, i, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, h1, h2, h3, h4, h5, h6, a {
     margin: 0;
     padding: 0;
     background-color: transparent;
