@@ -90,6 +90,6 @@ sup{
 sub{
     vertical-align:text-bottom;
 }
-i,b{
+i,em,b{
     font-style: inherit;
 }
