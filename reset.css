@@ -1,15 +1,23 @@
 *, *:before, *:after {
     box-sizing: inherit
 }
-html,b, i, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, h1, h2, h3, h4, h5, h6, a {
+html, b, i, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, h1, h2, h3, h4, h5, h6, a {
     margin: 0;
     padding: 0;
     background-color: transparent;
     vertical-align: baseline;
 }
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-size: 18px;
+}
+h2 {
+    font-size: 16px;
+}
+h3 {
+    font-size: 14px;
+}
+h4, h5, h6 {
     font-size: 100%;
-    font-weight: normal
 }
 ol, ul, nav {
     list-style: none
@@ -22,7 +30,6 @@ html {
     box-sizing: border-box;
     overflow-y: scroll;
 }
-
 img, embed, iframe, object, audio, video {
     height: auto;
     max-width: 100%;
@@ -79,17 +86,17 @@ mark {
     font-weight: bold;
 }
 input[type="search"] {
-  box-sizing: content-box;
+    box-sizing: content-box;
 }
-fieldset{
+fieldset {
     border: 0;
 }
-sup{
-    vertical-align:text-top;
+sup {
+    vertical-align: text-top;
 }
-sub{
-    vertical-align:text-bottom;
+sub {
+    vertical-align: text-bottom;
 }
-i,em,b{
+i, em, b {
     font-style: inherit;
 }
