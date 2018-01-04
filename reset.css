@@ -25,6 +25,7 @@ ol, ul, nav {
 button, input, select, textarea {
     margin: 0;
     text-transform: none;
+    font-size: 100%;
 }
 html {
     box-sizing: border-box;
