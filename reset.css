@@ -86,7 +86,7 @@ mark {
     font-style: italic;
     font-weight: bold;
 }
-input[type="search"] {
+input{
     box-sizing: content-box;
 }
 fieldset {
